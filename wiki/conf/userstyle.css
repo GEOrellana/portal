@@ -1,0 +1,70 @@
+/* Adaptación de la fuente y de los enlaces del theme Bootstrap3 a Geonetwork*/
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px !important;
+  color: #333;
+}
+a {
+  color: #428BCA;
+}
+
+/* Adaptación del menu del theme Bootstrap3 a Geonework */
+
+.navbar {
+  padding: 1px 36px 0px 36px;
+  border-width: 0px 0px 5px 0px;
+  border-radius: 0px;
+  padding-top:1px;
+  border-image: url(../../../img/logos/pachakutic.jpg) 5;
+}
+.navbar-default {
+  background-color: #F8F8F8;
+  border-color: #E7E7E7;
+}
+.navbar-brand {
+  display: none;
+}
+.navbar-default .navbar-nav > li > a {
+  height:55px;
+  color: #777;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #E7E7E7;
+}
+#dw__title {
+  display: none !important;
+}
+.gn-logo {
+  max-height: 23px;
+}
+
+.invisible {
+    visibility: hidden;
+}
+.gn-badge {
+    display: inline-block;
+    min-width: 40px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFF;
+    line-height: 1;
+    vertical-align: baseline;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #999;
+    border-radius: 10px;
+}
+
+/* Quitar el fondo azul de los items de menu activos, al que no funciona bien (julio 2015), probar otra vez más adelante */
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: #428BCA;
+  background-color:#FFF;
+}
+
+
+/* Para que no se muestran los títulos al lado de imagenes que flotan a la izquierda */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    clear: left;
+}
