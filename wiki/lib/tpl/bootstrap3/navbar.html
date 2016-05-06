@@ -9,6 +9,15 @@
   <li><a href="../portal/srv/spa/catalog.search#/map">
     <i class="fa fa-globe"></i> Mapa</a>
   </li>
+  <li class="dropdown active">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+      <i class="fa fa-eye" aria-hidden="true"></i> Apps <span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+      <li class="active"><a href="../"><i class="fa fa-bolt"></i> Meteo</a></li>
+<!--      <li><a href="#"><i class="fa fa-industry" aria-hidden="true"></i> Inspecciones Ambientales</li></a>
+      <li><a href="#"><i class="fa fa-line-chart" aria-hidden="true"></i> Monitoreo Ambiental</li></a>-->
+    </ul>
+  </li>
   <li<?php echo ((wl($ID) == wl()) ? ' class="active"' : ''); ?>>
     <?php tpl_link(wl(), '<i class="fa fa-location-arrow"></i> Wiki') ?>
   </li>
